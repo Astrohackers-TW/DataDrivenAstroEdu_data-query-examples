@@ -42,7 +42,7 @@ class MultiApp:
 
     def run(self):
         app = st.sidebar.radio(
-            '選擇天文資料抓取範例',
+            '選擇取得天文資料的範例',
             self.apps,
             format_func=lambda app: app['title'])
 
