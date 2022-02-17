@@ -31,6 +31,7 @@ def app():
         exoplanet_data = exoplanet_data[
             exoplanet_data['發現方法'].isin(discovery_methods)
         ].reset_index(drop=True)
+        st.warning(':rocket: [前往了解五種主要發現系外行星的方法](https://exoplanets.nasa.gov/alien-worlds/ways-to-find-a-planet/)')
 
         st.download_button(
             label='將資料匯出成CSV檔',
