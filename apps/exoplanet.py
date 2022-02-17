@@ -4,7 +4,7 @@ from astroquery.nasa_exoplanet_archive import NasaExoplanetArchive
 
 def app():
     st.title('取得太陽系外行星資料的範例')
-    st.info('[太陽系外行星](https://zh.wikipedia.org/wiki/%E5%A4%AA%E9%99%BD%E7%B3%BB%E5%A4%96%E8%A1%8C%E6%98%9F)(以下簡稱系外行星)是指位於太陽系之外的行星，此教材示範如何藉由Astroquery套件取得NASA系外行星資料庫提供的資料。')
+    st.info('[太陽系外行星](https://zh.wikipedia.org/wiki/%E5%A4%AA%E9%99%BD%E7%B3%BB%E5%A4%96%E8%A1%8C%E6%98%9F)(以下簡稱系外行星)是指位於太陽系之外的行星，此教材示範如何藉由[Astroquery](https://astroquery.readthedocs.io/en/latest/)套件取得[NASA系外行星資料庫](https://exoplanetarchive.ipac.caltech.edu/)提供的資料。')
     st.header('藉由Astroquery套件取得NASA系外行星資料庫提供的資料')
     st.code(example_code, language='python')
 
