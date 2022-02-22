@@ -1,5 +1,5 @@
 import streamlit as st
-from astroquery.nasa_exoplanet_archive import NasaExoplanetArchive
+from astroquery.ipac.nexsci.nasa_exoplanet_archive import NasaExoplanetArchive
 
 
 def app():
