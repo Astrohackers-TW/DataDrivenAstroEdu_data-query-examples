@@ -14,5 +14,5 @@ pip install -r requirements.txt
 ```
 ### 2. 執行以下指令後即可在瀏覽器運行此教材
 ```shell
-streamlit run app.py
+streamlit run Intro.py
 ```
