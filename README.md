@@ -1,6 +1,6 @@
 # 資料驅動天文教育 - 天文資料取得範例教材
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/astrohackers-tw/datadrivenastroedu_data-query-examples/main/app.py)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/astrohackers-tw/datadrivenastroedu_data-query-examples/main/Intro.py)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Astrohackers-TW/DataDrivenAstroEdu_data-query-examples/blob/main/LICENSE)
 
 此教材是以[Streamlit](https://streamlit.io/)開發，提供如何用Python套件取得天文資料的範例。
